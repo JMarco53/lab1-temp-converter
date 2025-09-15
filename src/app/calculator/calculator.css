@@ -1,0 +1,19 @@
+input {
+  border: 1px solid #333;
+  width: 100px;
+  margin: 5px;
+}
+
+button {
+  background-color: darkcyan;
+  padding: 10px 15px;
+  margin: 2px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+}

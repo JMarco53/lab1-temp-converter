@@ -1,0 +1,27 @@
+<div>
+  <h2>Calculator</h2>
+  <table>
+    <tbody>
+      <tr>
+        <td><label for="first">Premier nombre:</label></td>
+        <td><input id="first" #first></td>
+      </tr>
+      <tr>
+        <td><label for="second">Second nombre:</label></td>
+        <td><input id="second" #second></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button (click)="calculate(first.value, second.value, '+')">+</button>
+          <button (click)="calculate(first.value, second.value, '-')">-</button>
+          <button (click)="calculate(first.value, second.value, '*')">*</button>
+          <button (click)="calculate(first.value, second.value, '/')">/</button>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Résultat:</label></td>
+        <td>{{ result }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
